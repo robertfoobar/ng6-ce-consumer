@@ -1,0 +1,78 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+src/**/*.js.map
+src/**/*.metadata.json
+src/**/*.js
+features/**/*.js
+features/**/*.metadata.json
+features/**/*.js.map
+config/**/*.js
+config/**/*.metadata.json
+config/**/*.js.map
+build/
+reports/
+*.war
+*.zip
+*.tar.gz
+
+# dependencies
+/node_modules
+.npm
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+*.log
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# CI (e.g. Jenkins)
+checkstyle-result.xml
+test-results.xml
+coverage.xml
+coverage.lcov
+
+# Test Reports
+!features/reports
+features/reports/report.json
+features/reports/testcases-log.csv
+features/reports/json_cucumber*.json
+features/testcases/@rerun.txt
+coverage
+TESTS-*.xml
+target/*
+*.tar.gz
+
+# DevOps
+nginx-win/apok
